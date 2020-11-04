@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>debian on 不三之选</title><link>/tags/debian/</link><description>Recent content in debian on 不三之选</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2017 10:02:00 +0800</lastBuildDate><atom:link href="/tags/debian/index.xml" rel="self" type="application/rss+xml"/><item><title>vps折腾记录</title><link>/posts/vps%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</link><pubDate>Fri, 27 Oct 2017 10:02:00 +0800</pubDate><guid>/posts/vps%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</guid><description>&lt;h1 id="os-选择以及使用">OS 选择以及使用&lt;/h1>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-shell" data-lang="shell">debian &lt;span style="color:#ae81ff">9&lt;/span>
+/var/log 通用日志
+/etc 通用配置文件
+修改ssh端口
+/etc/ssh/sshd_config
+/etc/ssh/ssh_config
+service ssh restart
+查看占用
+netstat -lnp | grep ss-server
+查看进程
+ps -ax | grep ss-server
+结束PID对应的进程
+kill -9 &lt;span style="color:#f92672">[&lt;/span>PID&lt;span style="color:#f92672">]&lt;/span>
+查找文件
+find . -name &lt;span style="color:#e6db74">&amp;#34;*.json&amp;#34;&lt;/span>
+查看所有端口使用
+netstat –apn
+netstat -anp|grep &lt;span style="color:#ae81ff">80&lt;/span>
+查看80端口使用
+lsof -i:80
+结束nginx
+pkill -9 -f nginx
+后台挂起运行
+nohup xxxxxx &amp;amp;
+下载文件
+scp -r root@0.0.0.0: /folder /localfolder
+&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

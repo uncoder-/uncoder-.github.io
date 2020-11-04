@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>服务器相关 on 不三之选</title><link>/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9B%B8%E5%85%B3/</link><description>Recent content in 服务器相关 on 不三之选</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 24 May 2018 15:03:54 +0800</lastBuildDate><atom:link href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>Nginx之反向代理</title><link>/posts/nginx%E4%B9%8B%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</link><pubDate>Thu, 24 May 2018 15:03:54 +0800</pubDate><guid>/posts/nginx%E4%B9%8B%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</guid><description>&lt;p>所以我们就可以悄悄咪咪上一些不良网站了，整站代理。&lt;/p></description></item><item><title>vps折腾记录</title><link>/posts/vps%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</link><pubDate>Fri, 27 Oct 2017 10:02:00 +0800</pubDate><guid>/posts/vps%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</guid><description>&lt;h1 id="os-选择以及使用">OS 选择以及使用&lt;/h1>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-shell" data-lang="shell">debian &lt;span style="color:#ae81ff">9&lt;/span>
+/var/log 通用日志
+/etc 通用配置文件
+修改ssh端口
+/etc/ssh/sshd_config
+/etc/ssh/ssh_config
+service ssh restart
+查看占用
+netstat -lnp | grep ss-server
+查看进程
+ps -ax | grep ss-server
+结束PID对应的进程
+kill -9 &lt;span style="color:#f92672">[&lt;/span>PID&lt;span style="color:#f92672">]&lt;/span>
+查找文件
+find . -name &lt;span style="color:#e6db74">&amp;#34;*.json&amp;#34;&lt;/span>
+查看所有端口使用
+netstat –apn
+netstat -anp|grep &lt;span style="color:#ae81ff">80&lt;/span>
+查看80端口使用
+lsof -i:80
+结束nginx
+pkill -9 -f nginx
+后台挂起运行
+nohup xxxxxx &amp;amp;
+下载文件
+scp -r root@0.0.0.0: /folder /localfolder
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docker之常用命令</title><link>/posts/docker%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link><pubDate>Tue, 17 Oct 2017 22:17:38 +0800</pubDate><guid>/posts/docker%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid><description>&lt;p>常用命令&lt;/p></description></item><item><title>Localhost设置https</title><link>/posts/localhost%E8%AE%BE%E7%BD%AEhttps/</link><pubDate>Thu, 14 Sep 2017 19:46:57 +0800</pubDate><guid>/posts/localhost%E8%AE%BE%E7%BD%AEhttps/</guid><description>&lt;h1 id="证书生成">证书生成&lt;/h1></description></item><item><title>Nginx取消304缓存</title><link>/posts/nginx%E4%B9%8B%E7%A6%81%E6%AD%A2%E7%BC%93%E5%AD%98/</link><pubDate>Mon, 14 Nov 2016 20:07:30 +0800</pubDate><guid>/posts/nginx%E4%B9%8B%E7%A6%81%E6%AD%A2%E7%BC%93%E5%AD%98/</guid><description>&lt;p>加上这个这个配置&lt;/p></description></item></channel></rss>
